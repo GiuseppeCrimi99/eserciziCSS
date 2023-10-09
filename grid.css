@@ -1,0 +1,143 @@
+/* Look at the layout in the example.png and try to replicate it using CSS Grid properties.
+
+**Suggestion**:
+The grid that contains all numbers should have 4 columns. Assign this rule `grid-template-columns: repeat(4, 1fr)` to the div where you put the numbers. */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+#calculator{
+    width: 200px;
+    background-color: rgba(69, 3, 131, 0.459);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 100px;
+    column-gap: 2px;
+    row-gap: 2px;
+}
+
+div{
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.zero{
+    grid-column: 4 span;
+    text-align: end;
+    background-color: rgba(0, 32, 58, 0.651);
+    color: white;
+    padding: 3px;
+    margin: 0px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+.plus{
+    
+    grid-column: 1 span;
+    background-color:rgba(0, 107, 179, 0.342) ;
+    grid-gap: 2px
+}
+.minium{
+    grid-column: 1 span;
+    
+    background-color:rgba(0, 107, 179, 0.342) ;
+    grid-gap: 2px;
+}
+.x{
+    grid-column: 1 span;
+    background-color:rgba(0, 107, 179, 0.342) ;
+    grid-gap: 2px;
+}
+.divisor{
+    grid-column: 1 span;
+    background-color:rgba(0, 107, 179, 0.342) ;
+    grid-gap: 2px;
+}
+.equals{
+    grid-column: 4;
+    grid-row: 5 span;
+    border-bottom-right-radius: 20px ;
+    background-color:rgba(255, 4, 4, 0.582) ;
+    grid-gap: 2px;
+
+}
+.seven{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    grid-gap: 2px;
+    
+}
+.eight{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    grid-gap: 2px;
+}
+.nine{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    grid-gap: 2px;
+}
+.four{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    
+    grid-gap: 2px;
+}
+.five{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    grid-gap: 2px;
+}
+.six{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    grid-gap: 2px;
+}
+.one{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    grid-gap: 2px;
+}
+.two{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    grid-gap: 2px
+}
+.three{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    grid-gap: 2px;
+}
+.zero1{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    grid-gap: 2px;
+}
+.point{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    grid-gap: 2px;
+}
+.AC{
+    grid-column: 1 span;
+    border-bottom-right-radius: 1px solid black;
+    background-color:rgba(250, 250, 255, 0.815) ;
+    grid-gap: 2px;
+}

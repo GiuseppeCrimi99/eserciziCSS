@@ -1,0 +1,21 @@
+:root{
+    --white: white;
+    --blue: rgba(3, 3, 105, 0.801);
+    --height:200px;
+    --width:200px;
+    --radius:500px;
+
+}
+body {
+    background-color: var(--blue)
+}
+
+.ball {
+    height: var(--height);
+    width: var(--width);
+    background-color: var(--white);
+    border-radius: var(--radius);
+}
+
+/* ho definito tutte le proprietà con il root, gli ho cambiato anche il background, width height e il border radius,
+ */
